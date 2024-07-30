@@ -1,0 +1,33 @@
+
+h1{
+	text-align: center;
+	padding: 10px; 
+	background-color: #7BB94D;
+	color: #4F812A;
+}
+img {
+	border-radius:5% ;
+}
+p{
+	text-align: center;
+}
+table{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
+th{
+	font-family: !important;
+	font-size: 23px;
+	color: #469E87;
+}
+th, td {
+  text-align: center;
+  padding: 7px;
+}
+td{
+	font-size: 20px;
+}
+tr:nth-child(odd) {
+  background-color: #E0FAA6;
+}
