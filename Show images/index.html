@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>task3</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="inline1">
+			<div><img id="show1" class="outline" src="imgs/1.webp"></div>
+			<div><img id="show2" class="outline" src="imgs/2.webp"></div>
+			<div><img id="show3" class="outline" src="imgs/3.webp"></div>
+			<div><img id="show4"class="outline" src="imgs/4.webp"></div>
+			<div><img id="show5" class="outline" src="imgs/5.webp"></div>
+			<div><img id="show6" class="outline" src="imgs/6.webp"></div>
+	</div>
+		<div class="inline2">
+			<div><h3 class="type" id="type">The Type of Images</h3></div>
+			<div><img class="img" src="imgs/home.jpeg" id="show" alt="Images of Cats"></div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		let img = document.getElementById("show")
+		let img1 = document.getElementById("show1")
+		let img2 = document.getElementById("show2")
+		let img3 = document.getElementById("show3")
+		let img4 = document.getElementById("show4")
+		let img5 = document.getElementById("show5")
+		let img6 = document.getElementById("show6")
+    
+		img1.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Siamese cat"
+		img.src="imgs/1.webp" });
+
+		img2.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Shirazi cat"
+		img.src="imgs/2.webp" }) ;
+
+		img3.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Maine Coon cat"
+		img.src="imgs/3.webp" }) ;
+
+		img4.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Abyssinian cat" 
+		img.src="imgs/4.webp" });
+
+		img5.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Turkish Angora cat"
+		img.src="imgs/5.webp" }) ;
+
+		img6.addEventListener('click',function(){
+		document.getElementById("type").innerHTML="Savannah cat"
+		img.src="imgs/6.webp"  });
+				
+
+	</script>
+
+</body>
+</html>

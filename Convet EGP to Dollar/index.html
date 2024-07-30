@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styl.css" type="text/css">
+        <title>Convert USD TO EGP</title>
+
+    </head>
+    <body>
+        <div class="div">
+        <table>
+            <th>USD TO EGP</th>
+            <th>EGP TO USD</th>
+        </table>
+        <h2>USD TO EGP</h2>
+        <div><img src="imgs/usa.png"><input id="usd" class="input" type="number" name="usa" placeholder="USD"> $ </div>
+        <div><img src="imgs/egy.png"><input id="egp" class="input" type="text" name="egy" placeholder="EGP">LE</div>
+        <button id="button" onclick="myfunction()">Convert</button>
+        </div>
+        <script>
+        function myfunction(){
+            let value= document.getElementById("usd").value
+            document.getElementById("egp").value = parseInt(value) *48
+            };
+
+        </script>
+    </body>
+</html>

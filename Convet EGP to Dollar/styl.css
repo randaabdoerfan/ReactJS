@@ -1,0 +1,45 @@
+.div{
+    width: 350px;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 6px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 25%;
+    left: 35%;
+}
+div{
+    margin: 6px 0px;
+}
+table{
+    width: 100%;
+    padding: 5px;
+}
+th ,button{
+    background-color: black;
+    color: white;
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+h2{
+    padding: 7px;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 30px;
+    margin: 0px 7px;
+}
+.input{
+    width: 75%;
+    margin: 0px 7px;
+    font-size: large;
+    text-align: center;
+}
+#button{
+    font-size: large;
+    padding: 5px;
+    margin: 8px;
+    margin-left: 150px;
+}
